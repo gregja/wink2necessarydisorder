@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>2 disks with user variations</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="../p5/p5.js"></script>
+        <style>
+            .legend {
+              background-color: #f1f1f1;
+              padding: 20px 10px;
+              float:right;
+            }            
+        </style>
+    </head>
+    <body>
+        <div id="text_target" class="legend">
+            <h4>Looping curves with lerp and delay</h4>
+            <p>Click on the graph to get the focus, <br>and use the Arrow Keys to change it :</p>
+            <p>- Left/Right : decrease/increase the delay factor</p>
+            <p>- Up/Down : increase/decrease the motion radius </p>
+            <p>For more information :<br> <a target="_blank"  href="https://necessarydisorder.wordpress.com/2018/03/31/a-trick-to-get-looping-curves-with-lerp-and-delay/">Read the post of Etienne Jacob</a></p>
+            <p>- Delay Factor : <span id="val_delay_factor"></span></p>
+            <p>- Motion Radius : <span id="val_motion_radius"></span></p>
+        </div>
+
+        <script src="opensimplexnoise.js"></script>
+        <script src="curvetut4_v2.js"></script>
+    </body>
+</html>
