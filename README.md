@@ -13,11 +13,16 @@ generated shapes (on Processing) and anime GIFs.
 
 https://github.com/gregja/CreativeCodingParis#le-11-d%C3%A9cembre-2017-chez-e-artsup
 
-I liked a lot the examples of Etienne, so I tried in that project to adapt the sketches 
-of Etienne to the specificites of P5.js. 
+I liked a lot the examples of Etienne, so I tried in that project to adapt several sketches 
+of Etienne to P5.js. 
 
 It was very fun and interesting to do that. I tried to optimize the code to have a 
-good fluidity of animation, with a pleasant interactivity. I think it's not too bad.
+good fluidity of animation, with an acceptable interactivity for the user. 
+I think it's not too bad.
 
 Probably the most difficult job was to adapt in Javascript the simplex algorithm
 (written by Kurt Spencer) that Etienne used in several sketches.
+
+The most fun sketch was probably the one on which I added some sound with the
+Web Audio API. 
+ 
